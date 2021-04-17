@@ -1,0 +1,16 @@
+:host {
+  position: relative;
+}
+
+.square {
+  position: absolute;
+  $opacity: .6;
+
+  &.square-1 {
+    background-color: rgba(0, 0, 255, $opacity);
+  }
+
+  &.square-2 {
+    background-color: rgba(255, 0, 0, $opacity);
+  }
+}

@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .panel {
+    flex-basis: 130px;
+    overflow-y: auto;
+    background-color: #272727;
+    color: #dffffa;
+  }
+
+  .workspace {
+    flex-grow: 1;
+    overflow: hidden;
+  }
+}

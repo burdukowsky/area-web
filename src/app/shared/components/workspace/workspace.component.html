@@ -1,0 +1,8 @@
+<div appDraggable
+     class="square square-1"
+     [initial]="square1"
+     (dragMove)="this.square1Change.emit($event)"></div>
+<div appDraggable
+     class="square square-2"
+     [initial]="square2"
+     (dragMove)="this.square2Change.emit($event)"></div>
