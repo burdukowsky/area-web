@@ -4,6 +4,8 @@
 
 .square {
   position: absolute;
+  touch-action: none; // to prevent the browser from panning when the user drags with a touch pointer
+  user-select: none; // to disable text selection
   $opacity: .6;
 
   &.square-1 {
